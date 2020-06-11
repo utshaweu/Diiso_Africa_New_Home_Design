@@ -265,3 +265,117 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
 .footer-content a:hover{
   color: #3aa40c;
 }
+
+/* =======================================================================================================
+                                             IT Consulting Part Css
+======================================================================================================== */
+#banner2{
+  background: url(../images/It\ consulting.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+#banner2::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+.mr1 h1{
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+/* =======================================================================================================
+                                             Programs Part Css
+======================================================================================================== */
+#banner3{
+  background: url(../images/Traning\ programs.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+#banner3::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+/* =======================================================================================================
+                                               Projects Part Css
+========================================================================================================= */
+#banner4{
+  background: url(../images/projects.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+#banner4::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+/* =========================================================================================================
+                                              Technologies Part Css
+========================================================================================================= */
+#banner5{
+  background: url(../images/Technologies.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+#banner5::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+/* =======================================================================================================
+                                             Contact Us Part Css
+======================================================================================================== */
+#banner6{
+  background: url(../images/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+#banner6::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
