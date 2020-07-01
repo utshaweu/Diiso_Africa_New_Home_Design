@@ -196,6 +196,44 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   background: rgba(0,0,0,0.4);
 }
 
+/* =====================================================================================================
+                                              Mission Part Css
+======================================================================================================= */
+#mission{
+  padding-top: 80px;
+}
+.mission-img{
+  position: relative;
+}
+.mission-img::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+/* =======================================================================================================
+                                             Unique Part Css
+========================================================================================================= */
+#unique{
+  padding-top: 80px;
+}
+.unique-icon i{
+  color: #06a551;
+  font-size: 14px;
+}
+.unique-item{
+  padding-bottom: 5px;
+}
+.unique-item span{
+  color: #444444;
+}
+.unique-item ul li{
+  color: #444444;
+}
 /* ======================================================================================================
                                                Service Part Css
 ======================================================================================================== */
@@ -385,7 +423,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 50px;
-  padding: 0 100px;
+  padding: 0 20px;
 }
 .it-item{
   margin-bottom: 30px;
@@ -399,12 +437,25 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   color: #383838;
   font-weight: 600;
   margin-bottom: 10px;
+  line-height: 26px;
 }
 .it-text p{
   color: #666666;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+.it-text ul li i{
+  color: #06a551;
+  font-size: 8px;
+  margin-right: 5px;
+  position: relative;
+  top: -1px;
+}
+.it-text ul li{
+  color: #666666;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
 /* =======================================================================================================
@@ -656,4 +707,40 @@ button:focus {
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 30px;
+}
+/* =====================================================================================================
+                                       Service Inner Part Css
+======================================================================================================== */
+#banner7{
+  background: url(../images/common.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+#banner7::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
+#inner{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.inner-item ul li{
+  color: #383838;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.inner-item ul li i{
+  color: #06a551;
+  font-size: 16px;
+  margin-right: 10px;
 }
