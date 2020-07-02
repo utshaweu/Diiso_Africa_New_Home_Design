@@ -178,7 +178,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   padding-right: 35px;
 }
 .about-content .img{
-  background: url(../images/about.jpg);
+  background: url(../images/Image-4.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -193,7 +193,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.1);
 }
 
 /* =====================================================================================================
@@ -212,7 +212,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.1);
 }
 
 /* =======================================================================================================
@@ -457,7 +457,12 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   font-size: 14px;
   margin-bottom: 5px;
 }
-
+.vbox-overlay{
+  z-index: 99999;
+}
+.vbox-content img{
+  height: 550px;
+}
 /* =======================================================================================================
                                                Projects Part Css
 ========================================================================================================= */
