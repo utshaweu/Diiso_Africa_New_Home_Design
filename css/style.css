@@ -239,7 +239,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
 ======================================================================================================== */
 #service{
   padding-top: 80px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 .title h2{
   text-align: center;
@@ -249,7 +249,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   font-weight: 800;
   margin-bottom: 50px;
 }
-.service-item{
+/* .service-item{
   text-align: center;
   margin-bottom: 60px;
   transition: all linear .4s;
@@ -263,8 +263,82 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   font-weight: 600;
   text-transform: uppercase;
   margin-top: 15px;
-}
+} */
 
+
+.service-item-card{
+  position: relative;
+  margin-bottom: 30px;
+  transition: all linear .3s;
+}
+.service-item-card:hover{
+  transform: translateY(-5px);
+}
+.service-item-card .face{
+  padding: 20px 0;
+}
+.service-item-card .face.face1{
+  position: relative;
+  background: #f7f7f7;
+  border: 1px solid rgb(102, 102, 102,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-bottom: 0;
+  /* transform: translateY(100px); */
+}
+/* .service-item-card:hover .face.face1{
+  transform: translateY(0);
+  border-bottom: 0;
+} */
+.service-item-card .face.face1 .content{
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.service-item-card:hover .face.face1 .content{
+  opacity: 1;
+}
+.service-item-card .face.face1 .content img{
+  max-width: 100px;
+}
+.service-item-card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #222222;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.service-item-card .face.face2{
+  position: relative;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(102, 102, 102,0.2);
+  border-top: 0;
+  /* transform: translateY(-100px); */
+}
+.service-item-card .face.face2 .content ul{
+  padding: 15px 0;
+}
+.service-item-card .face.face2 .content ul li i{
+  color: #06a551;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.service-item-card .face.face2 .content ul li{
+  color: #444444;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+/* .service-item-card:hover .face.face2{
+  transform: translateY(0);
+} */
 /* ========================================================================================================
                                            Contact Part Css
 ========================================================================================================= */
