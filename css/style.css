@@ -233,6 +233,7 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
 ========================================================================================================= */
 #unique{
   padding-top: 80px;
+  padding-bottom: 80px;
 }
 .unique-icon i{
   color: #06a551;
@@ -255,8 +256,26 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
   border-radius: 2px;
 }
 /* ======================================================================================================
-                                               Service Part Css
+                                               Services Part Css
 ======================================================================================================== */
+#banner5{
+  background: url(../images/service.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+#banner5::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+}
 #service{
   padding-top: 80px;
   padding-bottom: 50px;
@@ -397,6 +416,11 @@ h1,h2,h3,h4,h5,h6,a,p,span,ul,ol,strong{
 }
 .social-link i:hover{
   background: #06a551;
+}
+.mr7{
+  position: relative;
+  top: -20px;
+  left: -55px;
 }
 /* =======================================================================================================
                                              Footer Part Css
@@ -706,31 +730,6 @@ button:focus {
 }
 .project-title .mr3{
   margin-bottom: 30px;
-}
-/* =========================================================================================================
-                                              Technologies Part Css
-========================================================================================================= */
-#banner5{
-  background: url(../images/Technologies.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 480px;
-  position: relative;
-}
-#banner5::after{
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0,0,0,0.5);
-}
-#technology{
-  padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 /* =======================================================================================================
