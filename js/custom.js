@@ -37,10 +37,59 @@ $(function(){
     html_body.animate({scrollTop:0},1000);
   });
   
+  //Smooth Scroll js
+  var html_body = $('html, body');
+  $('a').on('click', function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+              html_body.animate({
+                  scrollTop: target.offset().top - 150
+              }, 1500);
+              return false;
+          }
+      }
+  });
 
-  //Filter Js
-  var containerEl = document.querySelector('.project-main');
-  var mixer = mixitup(containerEl);
+  //Video Slider
+  $('.video-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    arrows: false,
+    speed:1000,
+    autoplaySpeed: 2500,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          centerMode:false,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+      ]
+  });
+
+  // //Filter Js
+  // var containerEl = document.querySelector('.project-main');
+  // var mixer = mixitup(containerEl);
 
   // Venobox
   $('.venobox').venobox(); 
