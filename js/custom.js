@@ -36,7 +36,8 @@ $(function(){
   back2top.click(function(){
     html_body.animate({scrollTop:0},1000);
   });
-  
+   
+
   //Smooth Scroll js
   var html_body = $('html, body');
   $('a').on('click', function () {
@@ -87,11 +88,12 @@ $(function(){
       ]
   });
 
+  // Venobox
+  $('.venobox').venobox();
+
   // //Filter Js
   // var containerEl = document.querySelector('.project-main');
   // var mixer = mixitup(containerEl);
 
-  // Venobox
-  $('.venobox').venobox(); 
 
 });
